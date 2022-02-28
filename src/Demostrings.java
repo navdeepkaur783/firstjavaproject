@@ -4,6 +4,8 @@ import java.util.*;
 public class Demostrings {
     public static void main(String args[])
     {
+
+        System.out.println("Navdeep Code");
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the String");
         String s=sc.next();
