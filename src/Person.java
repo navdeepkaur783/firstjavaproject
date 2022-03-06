@@ -14,7 +14,7 @@ public class Person {
         firstName="Navdeep";
         lastName="Kaur";
         address="Brampton";
-        address="Edmonton;
+        address="Edmonton";
         age=28;
     }
     public void changeAddress(String address) {
