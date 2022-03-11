@@ -17,5 +17,6 @@ public class EvenArray
     public static void main(String[] args) {
         EvenArray ea=new EvenArray();
         System.out.println(ea.countEven());
+        System.out.println("hi");
     }
 }
