@@ -44,7 +44,8 @@ public class Family {
     public void checkSavings()
     {
         double savings=(fatherSalary+motherSalary)-(sonFee+daughterfee)-grocery;
-        if (savings>1000){
+        if (savings>1000)
+        {
             System.out.println("Congratulation!! "+fatherName+ " you saved = "+savings);
         }
         else{

@@ -17,11 +17,12 @@ public class Employee
     }
     public double calWages(int bonus)
     {
-        return calWages(20,5,15.0)+bonus;
+        return calWages(hourWorked,overTimeHours,hourlyRate)+ bonus;
     }
 
     public static void main(String[] args) {
         Employee emp=new Employee();
+        System.out.println(emp.calWages(20, 5, 15.85));
         System.out.println(emp.calWages(200));
     }
 }
