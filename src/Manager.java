@@ -3,9 +3,10 @@ public class Manager extends Employee
     double allowance;
 
     @Override
-    protected double getSalary(int workHours, double allowance)
-    {
-        return super.getSalary()+allowance;
+    public double getSalary(double allowance) {
+        return super.getSalary(16.45, 80) + allowance;
+
+
     }
 }
 

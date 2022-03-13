@@ -13,7 +13,7 @@ public class Demoarrays {
             System.out.println(" ");
         }
 */
-
+        System.out.println("Hello");
         int []arr={45,69,89};
         int carr[]=new int[3];
         System.arraycopy(arr,0,carr,0,3);

@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public abstract class Employee {
+public class Employee {
 
     private String empName;
     private int empId;
@@ -8,18 +8,18 @@ public abstract class Employee {
     private Date hireDate;
     private double hourlyRate;
     int workHours;
-
-    public String getEmployeeDetails()
+    public Employee()
     {
-        String details="Employee Name "+empName+"Employee Department "+empDept+"Employee ID "+
-        empId+"Hiring Date is "+hireDate+"Hourly pay rate "+hourlyRate;
+        System.out.println("Base Class Constructor");
+    }
+
+    public String getEmployeeDetails(String empName,String empDept,int empId ,Date hireDate,double hourlyRate,int workHours)
+    {
+        String details="Employee Name "+empName+"Employee Department "+empDept+"Employee ID "+ empId+"Hiring date "+hireDate+"Pay rate "+hourlyRate+"working hous "+workHours;
         return details;
     }
-    public double getSalary()
+    public double getSalary(double hourlyRate,int workHours)
     {
         return hourlyRate*workHours;
     }
-
-
-    protected abstract double getSalary(int workHours, double allowance);
 }
