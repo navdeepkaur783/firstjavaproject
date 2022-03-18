@@ -14,7 +14,7 @@ public class Main {
 
 
         manager.getEmployeeDetails("Navdeep","XYZ",34, Date.valueOf("1992-03-01"),16.75,80);
-        manager.getSalary(200);
+        manager.getSalary();
 
 
 

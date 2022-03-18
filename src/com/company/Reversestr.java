@@ -5,6 +5,7 @@ public class Reversestr {
     {
         String  reverse="";
         String str="ASSIGNMENT";
+        System.out.println(str.toCharArray());
         char ch[]=new char[str.length()];
         for(int i=0;i<str.length();i++)
         {
